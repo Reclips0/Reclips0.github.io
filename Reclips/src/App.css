@@ -8,38 +8,116 @@
 button {
   margin-left: 5px;
   margin-right: 5px;
-  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 20px;
+  transition: all 0.5s ease-out;
 }
 
-.youtube:hover {
-  border-color: #FF0033;
-  box-shadow: 0px 0px 5px #FF0033;
-}
-
-.twitch:hover {
-  border-color: #9146FF;
-  box-shadow: 0px 0px 5px #9146FF;
-}
-
-.github:hover {
-  border-color: #B6BFB8;
-  box-shadow: 0px 0px 5px #B6BFB8;
-}
-
-.macaroni:hover {
-  border-color: #F1BC4A;
-  box-shadow: 0px 0px 5px #F1BC4A;
+.sbutton:hover {
+  transition: all 0.8s ease;
+  border-color: #ff8888;
+  box-shadow: 0px 0px 5px #ff8888;
+  background-color: rgb(203, 35, 35, 0.2);
 }
 
 h2 {
-  margin-top: 24px;
+  margin-top: 0px;
   text-shadow: 0px 0px 3px #7644b5;
+}
+
+.sheader {
+  border-radius: 8px 8px 0px 0px;
+  margin-top: 0px;
+  background-color: rgb(255, 136, 136, .2);
+  width: 100%;
 }
 
 h1 {
   margin-top: 24px;
   text-shadow: 0px 0px 10px #7644b5;
+}
+
+.video {
+  border-color: #e63e3e;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url("src/assets/2huntersrematch.jpg");
+  background-size: cover;
+  background-position: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 4%;
+  margin-right: 2%;
+  width: 44%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoo {
+  border-color: #e63e3e;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  background-image: url("src/assets/split.jpg");
+  background-size: cover;
+  background-position: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+  margin-right: 4%;
+  width: 44%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.video-title {
+  display: flex;
+  width: 100%;
+  border-radius: 0px 0px 8px 8px;
+  font-size: 15px;
+  background-color: rgb(255, 136, 136, 0.2);
+  opacity: 50%;
+  margin-top: auto;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding: 0;
+}
+
+.video-title:hover {
+  font-size: 20px;
+  background-color: rgb(255, 136, 136, 0.5);
+  opacity: 100%;
+}
+
+.vscontent {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.vsection {
+  margin-bottom: 20px;
+  border-color: #e63e3e;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.play {
+  margin-top: auto;
+  height: 40px;
+}
+
+.section {
+  margin-bottom: 20px;
+  border-color: #e63e3e;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 10px;
 }
 
 p {

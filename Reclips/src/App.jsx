@@ -14,6 +14,7 @@ function App() {
         <button className="sbutton" onClick={() => Redirect('https://www.twitch.tv/Reclips0')}>Twitch <small>@reclips0</small></button>
         <button className="sbutton" onClick={() => Redirect('https://www.github.com/Reclips0')}>Github <small>Reclips0</small></button>
         <button className="sbutton" onClick={() => Redirect('https://reclips0.github.io/legendary-disco/')}>The Worst Website Ever <small>/legendary-disco</small></button>
+        <button className="sbutton" onClick={() => Redirect('https://yamper-tracker.vercel.app/')}>Yamper Tracker<small> vercel</small></button>
       </div>
       <div className="section">
         <div className="sheader"><h2>Repositories</h2></div>
